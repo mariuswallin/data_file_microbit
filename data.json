@@ -1,0 +1,852 @@
+{
+    "sections": [
+        {
+            "name": "Basis",
+            "key": "section-basis",
+            "flagImage": "BasisFlag.png",
+            "button": {
+                "key": "button-basis",
+                "title": "Basis",
+                "status": true,
+                "styling": {
+                    "width": "434px",
+                    "marginLeft": "0px"
+                },
+                "image": {
+                    "inactive": "BasisButtonGrey.png",
+                    "idle": "BasisButton.png",
+                    "hover": "BasisButtonOver.png",
+                    "active": "BasisButtonDown.png"
+                }
+            },
+            "views": [
+                {
+                    "module": "Information",
+                    "key": "basis-information-view-1",
+                    "properties": {
+                        "viewOffset": 0,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "basis-information-view-c1",
+                                "action": null,
+                                "body": "<br><br><br>Hei! Kult at du er med meg på <strong>super:bit</strong>! Eg heiter <strong>micro:bot</strong>. No skal eg lære deg å programmere ein <strong>micro:bit</strong>. Det er ein liten datamaskin."
+                            },
+                            {
+                                "key": "basis-information-view-c2",
+                                "action": null,
+                                "body": "<br>Her er datamaskina <strong>micro:bit</strong>. Den kan vi programmere til å gjere mykje gøy!<br><img src='https://www.vitensenter.no/media/1314/1_1og2_2microbit-front800x500.png' />"
+                            },
+                            {
+                                "key": "basis-information-view-c3",
+                                "action": null,
+                                "body": "<br><strong>Micro:bit</strong> kan lese blokker med kode. Koden fortel micro:biten kva den skal gjere. Rekkefølgja på kodeblokkene er viktig. Den kallar vi for <strong>«sekvens»</strong>. Du sett blokkene saman som legoklossar: <br /> <img src='https://www.vitensenter.no/media/1310/1_2microbit-blokk-som-pussle800x500.png' />"
+                            }
+                        ]
+                    }
+                },
+
+                {
+                    "module": "Quiz",
+                    "key": "basis-quiz-view-1",
+                    "properties": {
+                        "viewOffset": 1,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1390/basis-1-hei-hjarte-730-416.png"
+                        },
+                        "question": "Her har eg laga ekte kodeblokker som kan styre micro:bit. Prøv å forstå koden. Kva trur du den seier?",
+                        "completeText": "Riktig! Micro:bit viser Hei! og eit hjarte som blinkar.",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "basis-quiz-1-button_1",
+                                "title": "<br>Micro:bit viser <strong>Hei!</strong> og eit hjarte som blinkar.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "basis-quiz-1-button_2",
+                                "title": "<br>Micro:bit seier <strong>Hei!</strong> og viser eit hjarte.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "basis-quiz-1-button_3",
+                                "title": "<br>Micro:bit viser hjarte og <strong>Hei!</strong> mange gongar.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "basis-information-view-2",
+                    "properties": {
+                        "viewOffset": 2,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "basis-information-view-2-conversation-1",
+                                "action": null,
+                                "body": "<br>Dei blå kodeblokkene under blir kalt <strong>basis</strong>-blokker. Dei styrer grunnleggjande ting, som kva som skjer når vi startar programmet. Når blokker er grå betyr det at dei ikkje er tatt med inn i koden som styrer micro:biten. <img src='https://www.vitensenter.no/media/1327/basis-graa-og-blaa-blokker.png' />"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "basis-information-view-3",
+                    "properties": {
+                        "viewOffset": 3,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "basis-information-view-3-conversation-1",
+                                "action": "informative",
+                                "body": "<br>No må du straks dra frå meg litt. Du skal nemleg få kode sjølv! Då blir programmet <strong>Makecode</strong> opna i ei eiga fane i nettlesaren din. Makecode kan vi bruke for å programmere datamaskina <strong>micro:bit</strong>. <br><br> Oppdraget ditt er å lage eit blinkande hjarte til meg."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "basis-information-view-4",
+                    "properties": {
+                        "viewOffset": 4,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "basis-information-view-4-conversation-1",
+                                "action": "informative",
+                                "body": "For å lage hjartet inne i <strong>Makecode</strong> må du pusle saman blokkene så det ser slik ut: <br><img src='https://www.vitensenter.no/media/1379/basis-1-hei-hjarte-400-228.png' />",
+                                "link": {
+                                    "text": "Gå til Makecode. Kom raskt tilbake!",
+                                    "url": "https://makecode.microbit.org/#pub:22616-04218-28740-86024"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "basis-information-well-done",
+                    "properties": {
+                        "viewOffset": 5,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "basis-information-well-done-view-1",
+                                "action": "happy",
+                                "body": "Så fint! Eg blir heilt varm om hjartet.",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_DAhDd3hyoTXT"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "basis-information-view-finnish",
+                    "properties": {
+                        "viewOffset": 6,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "basis-information-view-finnish-conversation-1",
+                                "action": "happy",
+                                "body": "<br><br>Hurra! Du er ferdig med Micro:bots aller første kodekurs. No kjenner du til <strong>basis</strong>-blokkene for å programmere ein micro:bit. Gå vidare til å lære om <strong>inndata</strong>."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Inndata",
+            "key": "view-inndata",
+            "flagImage": "InndataFlag.png",
+            "button": {
+                "key": "button-inndata",
+                "title": "Inndata",
+                "status": true,
+                "styling": {
+                    "width": "525px",
+                    "marginLeft": "297px"
+                },
+                "image": {
+                    "inactive": "InndataButtonGrey.png",
+                    "idle": "InndataButton.png",
+                    "hover": "InndataButtonOver.png",
+                    "active": "InndataButtonDown.png"
+                }
+            },
+            "views": [
+                {
+                    "module": "Information",
+                    "key": "inndata-information-view-1",
+                    "properties": {
+                        "viewOffset": 0,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "inndata-information-view-1",
+                                "action": "informative",
+                                "body": "<br><br>Når vi «snakkar» med datamaskina kallar vi det å gi den <strong>inndata</strong>. Maskina kan for eksempel få inndata når vi trykkar på ein knapp på maskina. Inndata kan også kome frå ein sensor vi ber maskina om å lese av."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "inndata-information-view-2",
+                    "properties": {
+                        "viewOffset": 1,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "inndata-information-view-2",
+                                "action": "informative",
+                                "body": "Micro:bit har to knappar: A og B. Vi kan kode den til å gjere ulike ting når vi gir inndata ved å trykke der. Trykk på knapp A og B under. Kva skjer?",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_YRoTWTHjxhWp"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "inndata-quiz-1",
+                    "properties": {
+                        "viewOffset": 2,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1362/inndata_riste800x500.png"
+                        },
+                        "question": "Vi kan også gje inndata ved å riste micro:biten. Kva gjer denne koden?",
+                        "completeText": "Bra jobba!",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "inndata-quiz-1-button_1",
+                                "title": "<strong>Micro:bit</strong> viser hjarte. Om du trykkar A, vil den riste og pipe IKKJE RIST MEG!",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "inndata-quiz-1-button_2",
+                                "title": "<strong>Micro:bit</strong> seier <strong>Hello!</strong>. Om du ristar, vil skjermen visa IKKJE RIST MEG!",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "inndata-quiz-1-button_3",
+                                "title": "<strong>Micro:bit</strong> viser hjarte. Om du ristar, vil skjermen visa IKKJE RIST MEG!",
+                                "isCorrect": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "inndata-information-view-3",
+                    "properties": {
+                        "viewOffset": 3,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "inndata-information-view-3-conversation-1",
+                                "action": "informative",
+                                "body": "Micro:bit har tre punkt (P0, P1 og P2) for å kople leidningar til ting vi vil styre. Den har også punkt 3V som styrer spenning og GND til jording.<img src='https://www.vitensenter.no/media/1314/1_1og2_2microbit-front800x500.png' />"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "inndata-quiz-2",
+                    "properties": {
+                        "viewOffset": 4,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1368/inndata_pin_trykkes800x500.png"
+                        },
+                        "question": "Les koden. Når skal micro:biten vise ein V?",
+                        "completeText": "Bra jobba!",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "inndata-quiz-2-button-1",
+                                "title": "<br>Når ledlysa går bananas.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "inndata-quiz-2-button-2",
+                                "title": "<br>Når du har kontakt med punkt 1.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "inndata-quiz-2-button-3",
+                                "title": "<br>Alltid dersom det er spenning i 3V.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "inndata-quiz-3",
+                    "properties": {
+                        "viewOffset": 5,
+                        "content": {
+                            "type": "microbit",
+                            "code": "_iaMcJe2E04Dx"
+                        },
+                        "question": "Denne simulatoren av ein micro:bit køyrer koden frå førre side. Prøv å trykke på rett sted på micro:biten. Kva skjer?",
+                        "completeText": "Bra jobba!",
+                        "failedText": "Det var ikkje heilt perfekt, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "inndata-quiz-3-button-1",
+                                "title": "<br>Den viser ein V når eg trykkar på ulike punkt.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "inndata-quiz-3-button-2",
+                                "title": "<br>Den viser ein V når eg trykkar på punkt 1.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "inndata-quiz-3-button-3",
+                                "title": "<br>Den viser ein V når eg trykkar på punkt 0.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "inndata-quiz-4",
+                    "properties": {
+                        "viewOffset": 6,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1361/inndata_pin1_trykkes800x500.png"
+                        },
+                        "question": "På ein ekte micro:bit trykkar du ved å kople leidningar frå GND til 0, 1 eller 2, og du kan kople via andre ting, som f.eks. ein banan! Kva gjer koden?",
+                        "completeText": "Bra jobba! Det er gøy å få kontakt med micro:biten gjennom bananen i matpakka!",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "inndata-quiz-4-button-1",
+                                "title": "Når det er kontakt med P0 spelar micro:bit ein melodi og viser ein V",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "inndata-quiz-4-button-2",
+                                "title": "Når det er kontakt med P1 spelar micro:bit ein melodi og viser ein V",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "inndata-quiz-4-button-3",
+                                "title": "Når det er kontakt med GND spelar micro:bit ein melodi og viser ein V",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "inndata-quiz-5",
+                    "properties": {
+                        "viewOffset": 7,
+                        "content": {
+                            "type": "microbit",
+                            "code": "_5vdamgAkYiPW"
+                        },
+                        "question": "Kan du få micro:biten til å lage lyd?",
+                        "completeText": "Bra jobba! Trykk i veg så lenge du vil!",
+                        "failedText": "Det var synd. Prøv på nytt!",
+                        "buttons": [
+                            {
+                                "key": "inndata-quiz-5-button-1",
+                                "title": "<br>Nei, eg får ikkje skrudd på lyden på maskina.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "inndata-quiz-5-button-2",
+                                "title": "<br>Jepp! Eg trykkar på P1.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "inndata-quiz-5-button-3",
+                                "title": "<br>Nei, micro:biten reagerer ikkje.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "inndata-information-view-4",
+                    "properties": {
+                        "viewOffset": 8,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "inndata-information-view-4-conversation-1",
+                                "action": "happy",
+                                "body": "<br><br><br>Bra jobba! No kan du ein god del om å gje micro:biten <strong>inndata</strong>. Gå vidare til det tredje av Micro:bots lynkodekurs: Lær å kode med <strong>løkker</strong>!"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Løkke",
+            "key": "view-lokke",
+            "flagImage": "LokkeFlag.png",
+            "button": {
+                "key": "button-lokke",
+                "title": "Løkke",
+                "status": true,
+                "styling": {
+                    "width": "528px",
+                    "marginLeft": "681px"
+                },
+                "image": {
+                    "inactive": "LokkeButtonGrey.png",
+                    "idle": "LokkeButton.png",
+                    "hover": "LokkeButtonOver.png",
+                    "active": "LokkeButtonDown.png"
+                }
+            },
+            "views": [
+                {
+                    "module": "Information",
+                    "key": "lokke-information-view-1",
+                    "properties": {
+                        "viewOffset": 0,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "inndata-information-view-1-conversation-1",
+                                "action": "informative",
+                                "body": "<br>«Gjenta for alltid» er det vi kallar ei <strong>løkke</strong>. Med løkker slepp du å skrive det same om og om igjen. Koden blir kortare og lettare å lesa. Og det er lettare å finne feilen om noko ikkje er som det skal.<img src='https://www.vitensenter.no/media/1318/3_1microbit-lokke800x500.png' />"
+                            }
+                        ]
+                    }
+                },
+
+                {
+                    "module": "Information",
+                    "key": "lokke-information-view-2",
+                    "properties": {
+                        "viewOffset": 1,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "inndata-information-view-2-conversation-1",
+                                "action": "informative",
+                                "body": "<br><br>Kva skjer når du trykkar på <strong>A</strong>? Kva med <strong>B</strong>? Og <strong>A+B</strong> samtidig?",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_4rYFgKP50fmz"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "lokke-quiz-1",
+                    "properties": {
+                        "viewOffset": 2,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1391/tre-loekkekoder-740x278.png"
+                        },
+                        "question": "Her er koden bak førre oppgåve. Kva for kode tel til 3?",
+                        "completeText": "Bra jobba!",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "lokke-quiz-1-button-1",
+                                "title": "<br>Berre den første koden.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "lokke-quiz-1-button-2",
+                                "title": "<br>Alle dei tre kodane.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "lokke-quiz-1-button-3",
+                                "title": "<br>Ingen av dei.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "lokke-information-view-3",
+                    "properties": {
+                        "viewOffset": 3,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "lokke-information-view-3-conversation-1",
+                                "action": "happy",
+                                "body": "<br><br><br> Smart, ikkje sant? Du kan bruke løkker for å gjenta ting. Då slepp du å skrive det same fleire gongar.<br>"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "lokke-information-view-4",
+                    "properties": {
+                        "viewOffset": 4,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "lokke-information-view-4-conversation-1",
+                                "action": "happy",
+                                "body": "<br><br>No er det din tur til å prøve i Makecode! Du skal bruke ei løkke for å lage koden kortare. Kom tilbake til meg etterpå for å få nye oppdrag!<br>",
+                                "link": {
+                                    "url": "https://makecode.microbit.org/#pub:44653-16117-61369-26451",
+                                    "text": "Gå ut for å kode. Kom snart tilbake!"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "lokke-information-view-5",
+                    "properties": {
+                        "viewOffset": 5,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "lokke-information-view-5-conversation-1",
+                                "action": "informative",
+                                "body": "<br>Ein <strong>variabel</strong> er ein kodeblokk som kan endre verdien sin medan programmet køyrer. Det gjer at micro:biten kan endre det den gjer undervegs. Variablar kan også forstå tal. Vi bestemmer heilt sjølv kva vi skal kalla variablane vi lagar.<br><img src='https://www.vitensenter.no/media/1384/variablar-164-216.png' />"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "lokke-quiz-2",
+                    "properties": {
+                        "viewOffset": 6,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1366/lokke_5gangen800x500.png"
+                        },
+                        "question": "Kva gjer koden?",
+                        "completeText": "Riktig svar! Micro:biten vil vise 5-gongaren",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "lokke-quiz-2-button-1",
+                                "title": "<br>Viser tala 0 til 1 på micro:biten",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "lokke-quiz-2-button-2",
+                                "title": "<br>Viser 10-gongaren på micro:biten",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "lokke-quiz-2-button-3",
+                                "title": "<br>Viser 5-gongaren på micro:biten",
+                                "isCorrect": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "lokke-information-view-6",
+                    "properties": {
+                        "viewOffset": 7,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "lokke-information-view-6-conversation-1",
+                                "action": "happy",
+                                "body": "<br><br><br>No veit du korleis du kan programmere <strong>løkker</strong>. Snart er du proff! <br> Siste lynkurs handlar om <strong>logikk</strong>. Med kodeblokker for logikk kan du gjere avansert programmering. Ta siste kurs også!"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Logikk",
+            "key": "view-logikk",
+            "flagImage": "LogikkFlag.png",
+            "button": {
+                "key": "button-logikk",
+                "title": "Logikk",
+                "status": true,
+                "styling": {
+                    "width": "459px",
+                    "marginLeft": "1068px"
+                },
+                "image": {
+                    "inactive": "LogikkButtonGrey.png",
+                    "idle": "LogikkButton.png",
+                    "hover": "LogikkButtonOver.png",
+                    "active": "LogikkButtonDown.png"
+                }
+            },
+            "views": [
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-1",
+                    "properties": {
+                        "viewOffset": 0,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-1-conversation-1",
+                                "action": "informative",
+                                "body": "<br>Vi kan få datamaskinar til å gjere ulike ting ved ulike vilkår. Som som at berre dersom det er mørkt, skal micro:bit vise surt fjes:<br><br><img src='https://www.vitensenter.no/media/1324/4_1microbit-intrologikk200x150.png' />"
+                            },
+                            {
+                                "key": "logikk-information-view-1-conversation-2",
+                                "action": "informative",
+                                "body": "<br>Ved å kombinere ulike blokker kan vi løyse mange oppgåver samtidig. For eksempel kan vi putte variablar (som <strong>a</strong> og <strong>b</strong> under) inn i ei samanlikningsblokk og sette det inn i eit vilkår (som «hvis»): <br> <img src='https://www.vitensenter.no/media/1325/4_2microbit-kombinereblokker_800.jpg' />"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-2",
+                    "properties": {
+                        "viewOffset": 1,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-2-conversation-1",
+                                "action": "informative",
+                                "body": "Trykk på <strong>A</strong> og <strong>B</strong>. Micro:biten min smiler berre om du trykker like mange gongar på <strong>A</strong> som på <strong>B</strong>.",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_9bofcch1mWkT"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "logikk-quiz-1",
+                    "properties": {
+                        "viewOffset": 2,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1389/logikk-naar-smiler-microbit-730-363.png"
+                        },
+                        "question": "Her er koden bak førre oppgåve. Les koden nøye. Når smiler micro:biten?",
+                        "completeText": "Bra jobba!",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "lokke-quiz-1-button-1",
+                                "title": "<br>Når talet A er lik talet B.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "lokke-quiz-1-button-2",
+                                "title": "<br>Når eg trykkar mange gongar.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "lokke-quiz-1-button-3",
+                                "title": "<br>Når talet A ikkje er lik talet B.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-3",
+                    "properties": {
+                        "viewOffset": 3,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-3-conversation-1",
+                                "action": "informative",
+                                "body": "LED-skjermen på micro:bit har ein lyssensor som kan gi <strong>inndata</strong> om lys i rommet. Inndata kan vi lagre i ein <strong>variabel</strong>, som vi f.eks. kallar «lysnivå». Koden under kombinerer basis-blokker med blokker for inndata som kan variere: <br><br> <img src='https://www.vitensenter.no/media/1333/4-logikk-lyssensor.png' />"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-4",
+                    "properties": {
+                        "viewOffset": 4,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-4-conversation-1",
+                                "action": "informative",
+                                "body": "Micro:biten viser med tal kor lyst det er. Lysnivå har verdiar frå 0 (mørkt) til 255 (lyst). Vi kan altså få <strong>sensorar</strong> inni micro:biten til å styre kva micro:biten gjer.<br>",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_bsUiD6KUW5q6"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "logikk-quiz-2",
+                    "properties": {
+                        "viewOffset": 5,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1382/logikk_lys-750x382.png"
+                        },
+                        "question": "Vi kan få micro:biten til å gjere mykje gøy dersom vi sett inndata inn i eit vilkår. Kva gjer koden?",
+                        "completeText": "Riktig! Micro:bit blir ein alarm som piper når det er lyst!",
+                        "failedText": "Det var ikkje heilt riktig, prøv igjen.",
+                        "buttons": [
+                            {
+                                "key": "logikk-quiz-2-button-1",
+                                "title": "Dersom lysnivået er større eller lik 130, vil den pipe tone C.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "logikk-quiz-2-button-2",
+                                "title": "Dersom lysnivået spelar ein C, vil lysnivået bli over 130.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "logikk-quiz-2-button-3",
+                                "title": "Dersom lysnivået er mindre enn 130, vil den pipe tone C.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-5",
+                    "properties": {
+                        "viewOffset": 6,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-5",
+                                "action": "informative",
+                                "body": "Sirkelen oppe til venstre på micro:biten er eit symbol for lys-sensoren. Trekk det gule lyset til over 128 (og så helst ned igjen ...)",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_1baX83FP3Lq0"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-6",
+                    "properties": {
+                        "viewOffset": 7,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-6-conversation-1",
+                                "action": "informative",
+                                "body": "<br><br>Micro:biten kan også måle temperaturen rundt mikro:biten. Sensoren kan måle verdiar som varierer frå -5&#176;C til 50&#176;C. <br> <img src='https://www.vitensenter.no/media/1369/inndata_temperatur800x500.png'/>"
+                            },
+                            {
+                                "key": "logikk-information-view-6-conversation-2",
+                                "action": "informative",
+                                "body": "Skyv simulatoren for temperatur (gradestokken). Kva skjer på LED-skjermen?",
+                                "content": {
+                                    "type": "microbit",
+                                    "code": "_8MaH64g7035m"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-8",
+                    "properties": {
+                        "viewOffset": 8,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-7",
+                                "action": "informative",
+                                "body": "<br><br>Vi kan kople micro:biten til mange ulike ting gjennom koplingspunkta (0, 1 og 2). I koden seier vi kva denne tingen ska gjere. Vi kan for eksempel kople på ein servo. Servo er ein motor som vi kan bruka for å få ting til å røre seg."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Quiz",
+                    "key": "logikk-quiz-3",
+                    "properties": {
+                        "viewOffset": 9,
+                        "content": {
+                            "type": "image",
+                            "url": "https://www.vitensenter.no/media/1377/logikk3_hvistemp721x573.png"
+                        },
+                        "question": "Her har eg kode som kan styre ein servo. Les koden nøye. Kva gjer koden inni blokka «gjenta for alltid»?",
+                        "completeText": "Riktig. Du er god!",
+                        "failedText": "Dette er litt vanskelg ... prøv igjen!",
+                        "buttons": [
+                            {
+                                "key": "logikk-quiz-3-button-1",
+                                "title": "Om temperaturen er under 30&#176;C, rører motoren seg til 30 gradar og micro:biten viser eit sint fjes.",
+                                "isCorrect": false
+                            },
+                            {
+                                "key": "logikk-quiz-3-button-2",
+                                "title": "Om temperaturen er over 30&#176;C, går motoren fram og tilbake frå 5 til 170 gradar og micro:biten viser sint fjes.",
+                                "isCorrect": true
+                            },
+                            {
+                                "key": "logikk-quiz-3-button-3",
+                                "title": "Om temperaturen er under 30&#176;C, går motoren fram og tilbake frå 5 til 170 gradar og micro:biten viser sint fjes.",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "module": "Information",
+                    "key": "logikk-information-view-8",
+                    "properties": {
+                        "viewOffset": 10,
+                        "blurScreen": false,
+                        "conversation": [
+                            {
+                                "key": "logikk-information-view-8-conversation-1",
+                                "action": "informative",
+                                "body": "<br>Gratulerer! No har du hatt første kurs i programmering av micro:bit. Om du vil kode meir, kan du gå vidare og finne fleire oppgåver her: <br><br><a href='https://makecode.microbit.org/' target='_blank'>https://makecode.microbit.org/</a>"
+                            }
+                        ]
+                    }
+                }
+            ]
+
+        }
+    ]
+}
